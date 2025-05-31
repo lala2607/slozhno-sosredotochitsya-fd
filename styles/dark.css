@@ -9,8 +9,33 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-color-image: url("../images/cover-image-dark.png");
+  --main-title-text-color: #db00ff;
+  --title-text-color: #000028;
+  --bg-color-title-text: #ff0070;
+  --accent-color: #ff0070;
+  --title-color-decore: #ff0070;
+  --section-color-text: #f1b2ce;
+  --color-button-text: #ff0070;
+  --color-rec-decore: #ff0070;
+  --color-link: #f1b2ce;
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  --bg-color-image: url("../images/cover-image-dark.png");
+  --main-title-text-color: #db00ff;
+  --title-text-color: #000028;
+  --bg-color-title-text: #ff0070;
+  --accent-color: #ff0070;
+  --title-color-decore: #ff0070;
+  --section-color-text: #f1b2ce;
+  --color-button-text: #ff0070;
+  --color-rec-decore: #ff0070;
+  --color-link: #f1b2ce;
 }
+
+.theme-dark .header__theme-menu-button_type_dark {
+  border: 1px solid #ff0070;
+}
+
