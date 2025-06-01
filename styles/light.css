@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-color-image: url("../images/cover-image-light.png");
+  --bg-color: #fff1f7;
   --main-title-text-color: #ffc2e6;
   --accent-color: #ff8dcb;
   --title-text-color: #353430;
@@ -18,29 +19,19 @@
   --section-color-text: #353430;
   --color-button-text: #353430;
   --color-link: #353430; 
+  --color-theme-button: #353430;
   
 }
 
 
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  --bg-color-image: url("../images/cover-image-light.png");
-  --main-title-text-color: #ffc2e6;
-  --accent-color: #ff8dcb;
-  --title-text-color: #353430;
-  --bg-color-title-text: #ff8dcb;
-  --title-color-decore: #353430;
-  --section-color-text: #353430;
-  --color-button-text: #353430;
-}
 
 .theme-light .header__rec-lable {
   display: none;
 }
 
 .theme-light .header__theme-menu-button_type_light {
-  border: 1px solid #353430;
+  border: 1px solid var(--color-theme-button);
 }
 
 @media (prefers-color-scheme: light) {
@@ -53,6 +44,8 @@
   --title-color-decore: #353430;
   --section-color-text: #353430;
   --color-button-text: #353430;
+  --color-link: #353430; 
+  --color-theme-button: #353430;
   }
 
   .theme-auto .header__rec-lable {
@@ -60,7 +53,7 @@
   }
 
   .theme-light .header__theme-menu-button_type_light {
-    border: 1px solid #353430;
+    border: 1px solid var(--color-theme-button);
   }
 
 }

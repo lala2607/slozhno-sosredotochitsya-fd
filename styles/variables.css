@@ -7,6 +7,7 @@
   --main-font-family: 'IBM Plex Mono';
   --headline-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --bg-color-image: url("../images/cover-image-dark.png");
+  --bg-color: #000028;
   --main-title-text-color: #db00ff;
   --title-text-color: #000028;
   --bg-color-title-text: #ff0070;
@@ -16,6 +17,7 @@
   --color-button-text: #ff0070;
   --color-rec-decore: #ff0070;
   --color-link: #f1b2ce; 
+  --color-theme-button: #ff0070;
   --weight-title-text: 700;
   --weight-text: 400;
   --main-text-size: 18px;
