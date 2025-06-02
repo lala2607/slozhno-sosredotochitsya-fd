@@ -37,6 +37,7 @@
 @media (prefers-color-scheme: light) {
   :root {
   --bg-color-image: url("../images/cover-image-light.png");
+  --bg-color: #fff1f7;
   --main-title-text-color: #ffc2e6;
   --accent-color: #ff8dcb;
   --title-text-color: #353430;
